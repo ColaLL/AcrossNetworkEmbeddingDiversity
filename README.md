@@ -36,6 +36,9 @@ AcrossNetworkEmbeddingData
 		groundtruth.x.foldtrain.train, the traning anchors, which are the 0.x of all the anchors.
 		
 		groundtruth.x.foldtrain.test,  the testing anchors, which are the 1-0.x of all the anchors.
+		
+	DiversityFiles
+		
 
 # Using other datasets for this model
 
