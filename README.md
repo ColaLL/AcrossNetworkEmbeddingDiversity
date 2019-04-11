@@ -6,7 +6,9 @@ Unzip the DiversityFiles into AcrossNetworkEmbeddingData dir. For instance "Acro
 
 # Model  Runing
 
+# Data description
+
 # Using other datasets for this model
 
-
+## Generate the DiversityFiles
 
