@@ -24,7 +24,11 @@ AcrossNetworkEmbeddingData
 	
 		groundtruth: the groundtruth for our experiment, the anchor users between twitter and foursquare. 
     
-		Note: pls make the anchors as the *same* id during the pre-preparation, although the testing anchors have the same id, they will *not* take part in the training progress as they are not contained in the groundtruth.x.foldtrain.train file.	
+		Note: 
+		
+		pls make the anchors as the *same* id during the pre-preparation.
+		
+		Although the testing anchors have the same id, they will *not* take part in the training progress as they are not contained in the groundtruth.x.foldtrain.train file.	
 		
 		groundtruth.x.foldtrain.train, the traning anchors, which are the 0.x of all the anchors.
 		
