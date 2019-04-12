@@ -42,7 +42,8 @@ AcrossNetworkEmbeddingData
 		groundtruth.x.foldtrain.test,  the testing anchors, which are the 1-0.x of all the anchors.
 		
 	DiversityFiles
-		all_share_diversity.x.foldtrain.number
+	
+		all_share_diversity.x.foldtrain.number, which are the 0.x of all the anchors. format:
 		
 		user_in_networkx user_in_networky|shared_anchor_user|diversity_value|relationship_type(follower/followee)
 
@@ -51,6 +52,11 @@ AcrossNetworkEmbeddingData
 Prepare your data format the same as twitter/following, foursquare/following and the twitter_foursquare_groundtruth.
 
 ## Generate the DiversityFiles
+
+Run getSharedFileAllDiversity.py in AcrossNetworkEmbeddingData dir, make sure that you have the correct path for saving generate diversity files, eg. AcrossNetworkEmbeddingData/DiversityFiles/.
+
+Note that, use py 2.7 for the enviornment, pip install python-louvain for community detection. Then you can run the model (The same as model running section). 
+
 
 
 
