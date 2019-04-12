@@ -9,7 +9,27 @@ For instance "AcrossNetworkEmbeddingData/DiversityFiles/all_share_diversity.9.fo
 
 # Model  Runing
 
-All the model files in FinalModel package, run IONE.java and IONEDiversity.java first, then several embedding file will be generated in foursquare/embeddings and twitter/embeddings. 
+All the model files in FinalModel package.
+
+Run IONE.java and IONEDiversity.java first, then several embedding file will be generated in foursquare/embeddings and twitter/embeddings. 
+
+For IONE.java 4 embeddings,
+
+foursquare/twitter.embedding.update.2SameAnchor.concatenate.100_dim.9.foldtrain.10000000                        *IONE-Ex model*
+foursquare/twitter.embedding.update.2SameAnchor.InputContextVector.100_dim.9.foldtrain.10000000
+foursquare/twitter.embedding.update.2SameAnchor.OutputContextVector.100_dim.9.foldtrain.10000000
+foursquare/twitter.embedding.update.2SameAnchor.twodirectionContext.100_dim.9.foldtrain.10000000                *IONE model*
+
+For IONEDiversity.java 4 embeddings,
+
+
+Then run ConcatenateAnswer.java for concatenating the embeddings,
+
+
+Of course, you can change the paths of different embeddings files for different models which are described in the paper.
+
+Finally, you can run the getPrecision.java for the results which are used in the paper. Just make sure that the path of embedding files to be concatenated are corrected.
+
 
 # Data description
 
@@ -55,9 +75,11 @@ Prepare your data format the same as twitter/following, foursquare/following and
 
 Run getSharedFileAllDiversity.py in AcrossNetworkEmbeddingData dir, make sure that you have the correct path for saving generate diversity files, eg. AcrossNetworkEmbeddingData/DiversityFiles/.
 
-Note that, use py 2.7 for the enviornment, pip install python-louvain for community detection. Then you can run the model (The same as model running section). 
+Note that, use **py 2.7** for the enviornment, pip install python-louvain for community detection. Then you can run the model (The same as model running section). 
 
+By the way, the you can find the IONE model at https://github.com/ColaLL/IONE and ABNE model https://github.com/ColaLL/ABNE which are also used for the user alignment task.
 
+Feel free to contact me (Liu Li liuli0407@hotmail.com) when you have any problems about the paper or the code.
 
 
 
