@@ -15,10 +15,10 @@ Run IONE.java and IONEDiversity.java first, then several embedding file will be 
 
 For IONE.java 4 embeddings,
 
-foursquare/twitter.embedding.update.2SameAnchor.concatenate.100_dim.9.foldtrain.10000000                        *IONE-Ex model*
+foursquare/twitter.embedding.update.2SameAnchor.concatenate.100_dim.9.foldtrain.10000000                        **IONE-Ex model**
 foursquare/twitter.embedding.update.2SameAnchor.InputContextVector.100_dim.9.foldtrain.10000000
 foursquare/twitter.embedding.update.2SameAnchor.OutputContextVector.100_dim.9.foldtrain.10000000
-foursquare/twitter.embedding.update.2SameAnchor.twodirectionContext.100_dim.9.foldtrain.10000000                *IONE model*
+foursquare/twitter.embedding.update.2SameAnchor.twodirectionContext.100_dim.9.foldtrain.10000000                **IONE model**
 
 For IONEDiversity.java 4 embeddings,
 
