@@ -22,9 +22,14 @@ foursquare/twitter.embedding.update.2SameAnchor.twodirectionContext.100_dim.9.fo
 
 For IONEDiversity.java 4 embeddings,
 
+foursquare/twitter.embedding.update.2SameAnchor.concatenate.100_dim.9.foldtrain.diversity.100000000                     **IONE-D-Ex model**
+foursquare/twitter.embedding.update.2SameAnchor.InputContextVector.100_dim.9.foldtrain.diversity.100000000
+foursquare/twitter.embedding.update.2SameAnchor.OutputContextVector.100_dim.9.foldtrain.diversity.100000000
+foursquare/twitter.embedding.update.2SameAnchor.twodirectionContext.100_dim.9.foldtrain.diversity.100000000             **IONE-D model**
 
 Then run ConcatenateAnswer.java for concatenating the embeddings,
 
+foursquare/twitter.embedding.update.2SameAnchor.concatenateDiversity.100_dim.9.foldtrain.diversity.100000000           **IONE-Con-Ex model**
 
 Of course, you can change the paths of different embeddings files for different models which are described in the paper.
 
